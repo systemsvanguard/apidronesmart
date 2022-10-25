@@ -1,0 +1,48 @@
+{
+  "name": "apidronesmart",
+  "version": "1.3.4",
+  "description": "DroneSmart Drones Mart Flying Hobbies RESTful CRUD API based on Node.js with with Express framework, using a MySQL relational database with Sequelize ORM.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" , 
+	"start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/systemsvanguard/apidronesmart.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Node",
+    "Express",
+    "EJS",
+    "Bulma",
+    "REST",
+    "API",
+    "CRUD",
+    "Sequelize",
+    "ORM",
+    "MySQL", 
+    "CSS",
+    "FontAwesome" 
+  ],
+  "author": "Ryan Hunter | GitHub handle: SystemsVanguard | Web: www.ryanhunter.org | Location: Toronto ON Canada",
+  "license": "MIT", 
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bulma": "^0.9.4",
+    "cors": "^2.8.5", 
+    "dot-prop": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3", 
+    "express": "^4.18.1", 
+    "express-ejs-layouts": "^2.5.0", 
+    "kind-of": "^6.0.3",
+    "minimist": "^1.2.5",	
+    "mysql2": "^2.3.3", 	    
+    "sequelize": "^6.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
